@@ -1,15 +1,22 @@
 {
-  "LauncherMinVersion": "1.2.0.0",
   "LauncherLatestVersion": "1.2.0.0",
-  "DownloadUrl": "https://example.com/HNX-Setup-1.0.0.0.exe",
+  "DownloadUrl": "https://example.com/HNX-Setup-1.2.0.0.exe",
   "Announcements": [
     {
-      "Id": "test-001",
-      "Title": "HNX 联网测试公告",
-      "Content": "如果你能看到这条公告，说明远程配置拉取成功。",
-      "StartTime": "2025-11-30T00:00:00Z",
-      "EndTime": "2026-01-01T00:00:00Z",
+      "Id": "20251201-01",
+      "Title": "欢迎使用 HNX 启动器",
+      "Content": "最新版本已发布，快来下载！",
+      "StartTime": "2025-12-01T00:00:00Z",
+      "EndTime": "2025-12-31T23:59:59Z",
       "MinLauncherVersion": "1.0.0.0"
+    }
+  ],
+  "GamePackages": [
+    {
+      "Id": "stickman-runner",
+      "Version": "2.0.0",
+      "PackageUrl": "https://example.com/games/stickman-runner-v2.0.0.hgp",
+      "Hash": "SHA256:xxxxxxxxxxxxx"
     }
   ]
 }
